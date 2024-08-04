@@ -1,0 +1,48 @@
+.text {
+    font-size: large;
+    font-stretch: expanded;
+    font-variant: small-caps;
+    font-weight: 500;
+}
+.name, .developer {
+    display: inline-block; 
+    cursor: none;
+  }
+.typed-cursor {
+    display: none !important;
+  }
+  
+  
+.text-1 {
+    font-size: xx-large;
+    font-stretch: expanded;
+    font-variant: small-caps;
+    font-weight: 500;
+}
+.textlg {
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+.name, .developer {
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: red;
+    text-shadow: 0 0 3px black;
+    animation: glow 1.5s ease-in-out infinite alternate, colorChange 5s infinite, shadowPulse 2s infinite;
+}
+.btn-custom {
+    border-radius: 1.5rem; /* Increased border-radius for more rounded corners */
+}
+
+
+:root {
+    --background-color: #fff;
+    --text-color: #000;
+}
+
+[data-theme="dark"] {
+    --background-color: #000;
+    --text-color: #fff;
+}
